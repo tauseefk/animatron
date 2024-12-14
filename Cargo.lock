@@ -12,16 +12,7 @@ checksum = "aefc6882af1f45a931e20099343218649cce1d5b03448317c0644cafb98257d0"
 name = "animatron"
 version = "0.2.1"
 dependencies = [
- "animatron_derive 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "animatron_derive"
-version = "0.2.0"
-dependencies = [
- "animatron 0.2.0",
- "quote",
- "syn",
+ "animatron_derive 0.2.0",
 ]
 
 [[package]]
@@ -31,6 +22,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2dcab2f123187f45b4bffbe220b9bcb6bc5d1b8b9695e766fc7786fea7d6687"
 dependencies = [
  "animatron 0.2.0",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "animatron_derive"
+version = "0.2.1"
+dependencies = [
  "quote",
  "syn",
 ]
