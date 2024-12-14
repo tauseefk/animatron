@@ -13,8 +13,6 @@ include = [
   "Cargo.toml",
 ]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [lib]
 name = "animatron_derive"
 proc-macro = true
@@ -22,6 +20,4 @@ proc-macro = true
 [dependencies]
 syn = "1.0"
 quote = "1.0"
-
-[dev-dependencies]
-animatron = { version = "0.2.0", path = "../animatron" }
+animatron = "0.2.0"
