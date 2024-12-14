@@ -1,6 +1,6 @@
 [package]
 name = "animatron"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Tauseef Khan", "Tauseef Khan <tauseef25@gmail.com>"]
 description = "Animation state management."
@@ -12,3 +12,13 @@ include = [
   "**/*.rs",
   "Cargo.toml",
 ]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+animatron_derive = { version = "=0.2.0", optional = true }
+
+[features]
+
+# Provide derive(AnimationTransitionMacro) macros.
+derive = ["animatron_derive"]
