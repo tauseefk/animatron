@@ -7,10 +7,16 @@ name = "animatron"
 version = "0.2.0"
 
 [[package]]
+name = "animatron"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "aefc6882af1f45a931e20099343218649cce1d5b03448317c0644cafb98257d0"
+
+[[package]]
 name = "animatron_derive"
 version = "0.2.0"
 dependencies = [
- "animatron",
+ "animatron 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "quote",
  "syn",
 ]
