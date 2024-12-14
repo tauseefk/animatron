@@ -5,9 +5,6 @@ version = 3
 [[package]]
 name = "animatron"
 version = "0.2.0"
-dependencies = [
- "animatron_derive",
-]
 
 [[package]]
 name = "animatron_derive"
