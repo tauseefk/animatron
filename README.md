@@ -1,4 +1,4 @@
-# animation-transition
+# Animatron
 
 ### Turn this:
 ![toad_anime_jump_small](https://user-images.githubusercontent.com/11029896/196866076-e491eb2c-df84-454c-bc3e-302c76feb705.png)

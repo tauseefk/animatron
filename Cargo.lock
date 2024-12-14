@@ -3,17 +3,17 @@
 version = 3
 
 [[package]]
-name = "animation_transition"
-version = "0.1.0"
+name = "animatron"
+version = "0.2.0"
 dependencies = [
- "animation_transition_derive",
+ "animatron_derive",
 ]
 
 [[package]]
-name = "animation_transition_derive"
-version = "0.1.0"
+name = "animatron_derive"
+version = "0.2.0"
 dependencies = [
- "animation_transition",
+ "animatron",
  "quote",
  "syn",
 ]

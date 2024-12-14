@@ -1,0 +1,24 @@
+[package]
+name = "animatron"
+version = "0.2.0"
+edition = "2021"
+authors = ["Tauseef Khan", "Tauseef Khan <tauseef25@gmail.com>"]
+description = "Animation state management."
+repository = "https://github.com/tauseefk/animatron"
+license = "MIT"
+keywords = ["gamedev", "spritesheet", "animation"]
+
+include = [
+  "**/*.rs",
+  "Cargo.toml",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+animatron_derive = { version = "=0.2.0", optional = true, path = "../animatron_derive" }
+
+[features]
+
+# Provide derive(AnimationTransitionMacro) macros.
+derive = ["animatron_derive"]

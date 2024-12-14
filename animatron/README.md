@@ -1,4 +1,4 @@
-# animation-transition
+# animatron
 
 Companion macro [here](https://github.com/tauseefk/animation-transition-derive-macro)
 
