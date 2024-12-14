@@ -1,6 +1,8 @@
 [workspace]
+resolver = "2"
 
 members = [
-  "animation_transition",
-  "animation_transition_derive"
+  "animatron",
+  "animatron_derive"
 ]
+
