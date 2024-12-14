@@ -1,6 +1,6 @@
 [package]
 name = "animatron_derive"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Tauseef Khan", "Tauseef Khan <tauseef25@gmail.com>"]
 description = "Animatron derive macros."
@@ -20,4 +20,3 @@ proc-macro = true
 [dependencies]
 syn = "1.0"
 quote = "1.0"
-animatron = "0.2.0"
