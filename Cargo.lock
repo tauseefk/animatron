@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "animatron"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
  "animatron_derive 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
