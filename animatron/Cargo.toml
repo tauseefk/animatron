@@ -12,13 +12,3 @@ include = [
   "**/*.rs",
   "Cargo.toml",
 ]
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-animatron_derive = { version = "=0.2.0", optional = true, path = "../animatron_derive" }
-
-[features]
-
-# Provide derive(AnimationTransitionMacro) macros.
-derive = ["animatron_derive"]
