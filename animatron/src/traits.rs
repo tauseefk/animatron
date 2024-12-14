@@ -1,5 +1,3 @@
-pub use crate::prelude::*;
-
 pub trait AnimationLoop {
     fn page(&self) -> (usize, usize);
 }

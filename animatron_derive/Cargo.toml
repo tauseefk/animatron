@@ -1,0 +1,27 @@
+[package]
+name = "animatron_derive"
+version = "0.2.0"
+edition = "2021"
+authors = ["Tauseef Khan", "Tauseef Khan <tauseef25@gmail.com>"]
+description = "Animatron derive macros."
+repository = "https://github.com/tauseefk/animatron"
+license = "MIT"
+keywords = ["gamedev", "spritesheet", "animation"]
+
+include = [
+  "**/*.rs",
+  "Cargo.toml",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "animatron_derive"
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+
+[dev-dependencies]
+animatron = { version = "0.2.0", path = "../animatron" }
